@@ -1,4 +1,4 @@
-import { useparams } from "react-router-dom";
+import { useParams  } from "react-router-dom";
 
 const tasks = [
     {
@@ -19,7 +19,7 @@ const tasks = [
 ];
 
 export default function TaskDetails() {
-    const { id } = useparams();
+    const { id } = useParams();
 
     const task = tasks.find((task) => task.id === Number(id));
 
