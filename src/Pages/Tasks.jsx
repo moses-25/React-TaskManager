@@ -6,7 +6,7 @@ const tasks = [
   { id: 3, title: "Practice useState()" },
 ];
 
-export default function Task() {
+export default function Tasks() {
   return (
     <div>
       <h1>Tasks List</h1>
