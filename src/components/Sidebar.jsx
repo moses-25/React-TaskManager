@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function sidebar() {
+export default function Sidebar() {
   return (
     <aside>
       <ul>
@@ -12,17 +12,7 @@ export default function sidebar() {
           <Link to="/tasks">Tasks</Link>
         </li>
 
-        <li>
-          <Link to="/reports">Reports</Link>
-        </li>
 
-        <li>
-          <Link to="/profile">Profile</Link>
-        </li>
-
-        <li>
-          <Link to="/settings">Settings</Link>
-        </li>
       </ul>
     </aside>
   );
