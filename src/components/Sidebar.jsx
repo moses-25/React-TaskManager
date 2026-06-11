@@ -12,6 +12,21 @@ export default function Sidebar() {
           <Link to="/tasks">Tasks</Link>
         </li>
 
+        <li>
+          <Link to="/reports">Reports</Link>
+        </li>
+
+        <li>
+          <Link to="/profile">Profile</Link>
+        </li>
+
+        <li>
+          <Link to="/settings">Settings</Link>
+        </li>
+
+        <li>
+          <Link to="/about">About</Link>
+        </li>
 
       </ul>
     </aside>
