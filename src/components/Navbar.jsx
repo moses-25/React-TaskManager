@@ -12,6 +12,14 @@ export default function Navbar() {
             <Link to="/tasks">Tasks</Link>
             <br />
             <Link to="/taskmenu">Task Menu</Link>
+            <br />
+            <Link to="/profile">Profile</Link>
+            <br />
+            <Link to="/settings">Settings</Link>
+            <br />
+            <Link to="/reports">Reports</Link>
+            <br />
+            <Link to="/tasks/:id">Task Details</Link>
         </nav>
     );
 }
