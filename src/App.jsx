@@ -8,6 +8,9 @@ import Tasks from "./Pages/Tasks";
 import TaskMenu from "./Pages/TaskMenu";
 import TaskDetails from "./Pages/TaskDetails";
 import NotFound from "./Pages/NotFound";
+import Profile from "./Pages/Profile";
+import Settings from "./Pages/Settings";
+import Reports from "./Pages/Reports";
 
 function App() {
 
@@ -22,6 +25,9 @@ function App() {
         <Route path="/tasks" element={<Tasks />} />
         <Route path="/taskmenu" element={<TaskMenu />} />
         <Route path="/tasks/:id" element={<TaskDetails />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/reports" element={<Reports />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
      
