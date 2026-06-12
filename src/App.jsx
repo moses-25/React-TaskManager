@@ -16,6 +16,7 @@ import Notifications from "./Pages/Notifications";
 import Activity from "./Pages/Activity";
 import Settings from "./Pages/Settings";
 import Reports from "./Pages/Reports";
+import Help from "./components/Help";
 
 function App() {
 
@@ -38,6 +39,8 @@ function App() {
         <Route path="/reports" element={<Reports />} />
         <Route path="/team" element={<Team />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/help" element={<Help />} />
+         
       </Routes>
      
     </>
