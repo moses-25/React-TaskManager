@@ -13,8 +13,10 @@ import NotFound from "./Pages/NotFound";
 import Profile from "./Pages/Profile";
 import Team from "./Pages/Team";
 import Notifications from "./Pages/Notifications";
+import Activity from "./Pages/Activity";
 import Settings from "./Pages/Settings";
 import Reports from "./Pages/Reports";
+import Help from "./components/Help";
 
 function App() {
 
@@ -32,10 +34,13 @@ function App() {
         <Route path="/create-task" element={<CreateTask />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/notifications" element={<Notifications />} />
+        <Route path="/activities" element={<Activity />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/team" element={<Team />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/help" element={<Help />} />
+         
       </Routes>
      
     </>
