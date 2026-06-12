@@ -11,6 +11,7 @@ import CreateTask from "./Pages/CreateTask";
 import TaskDetails from "./Pages/TaskDetails";
 import NotFound from "./Pages/NotFound";
 import Profile from "./Pages/Profile";
+import Team from "./Pages/Team";
 import Notifications from "./Pages/Notifications";
 import Settings from "./Pages/Settings";
 import Reports from "./Pages/Reports";
@@ -33,6 +34,7 @@ function App() {
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/reports" element={<Reports />} />
+        <Route path="/team" element={<Team />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
      
